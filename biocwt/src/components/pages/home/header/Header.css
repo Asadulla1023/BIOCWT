@@ -1,0 +1,505 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 1240px;
+}
+
+.header > .navigation {
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.logo > a > img {
+    width: 197px;
+}
+
+.navigate {
+    width: 605px;
+    
+}
+.navigate > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+a {
+    font-size: 20px;
+    font-family: 'montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s linear;
+    animation: animate__pulse;
+    animation-duration: 2s;
+}
+a:hover {
+    color: #aaa;
+}
+
+.header__main {
+    width: 1245px;
+    position: relative;
+    left: 100px;
+    height: 714px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px 0px 0 70px;
+    background: #1E0C06;
+    box-shadow: rgba(255, 255, 255, 0.688) 0px 5px 15px;
+    transition: 2s linear;
+    margin-bottom: 150px;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    color: #fff;
+}
+
+img {
+    width: 205px;
+}
+
+.main__left {
+    width: 580px;
+}
+
+.main__left > h2 {
+    text-transform: uppercase;
+    font-size: 90px;
+    width: 300px;
+}
+
+.main__left > p {
+    color: #FFDBBB;
+    font-size: 30px;
+    line-height: 39px;
+    font-weight: 400;
+    width: 330px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main__left > p > span {
+    font-weight: bold;
+}
+
+.main__left > button {
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background: #728BAD;
+    transition: 0.3s linear;
+}
+
+
+.main__left > button:active {
+    color: #728BAD;
+    background: #fff;
+}
+
+.main__center {
+    height: 560px;
+    width: 1px;
+    background: linear-gradient(#fff, #000);
+}
+
+.main__right {
+    width: 474px;
+}
+
+.main__right > img {
+    width: 205px;
+    display: block;
+}
+
+.header__img {
+    position: relative;
+    left: 270px;
+}
+
+.header__img2 {
+    position: relative;
+    left: 25px;
+    top: 80px;
+}
+
+.howWeDoIt {
+    text-align: center;
+}
+
+.howWeDoIt__title > h2 {
+    font-size: 90px;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 120px;
+}
+
+.howWeDoIt__title {
+    color: #fff;
+    width: 746px;
+}
+
+.about__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.object {
+    width: 210px;
+}
+
+.object > img {
+    margin-bottom: 40px;
+}
+
+.object > h3 {
+    font-size: 30px;    
+}
+
+.checking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-object {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.checking > img {
+    position: relative;
+    left: 35px;
+    width: 25px;
+}
+
+.checking > p {
+    position: relative;
+    left: -20px;
+    width: 120px;
+    color: #fff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change__background > img {
+    width: 20px;
+}
+
+.ellipse {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.change__background > button {
+    background: transparent;
+    border: none;
+}
+
+.nd {
+    background: #fff;
+    border-radius: 55px;
+}
+
+.ellipse > button {
+    border-radius: 25px;
+    background: transparent;
+    border: none;
+}
+
+button > img {
+    
+    width: 26px;
+}
+
+
+.image > img {
+    margin-top: 50px;
+    width: 1130px;
+    border-radius: 50px;
+}
+
+.ourWork {
+    margin-top: 150px;
+}
+
+
+.ourWork > h2 {
+    margin-left: 50px;
+    text-transform: uppercase;
+    font-size: 90px;
+    color: #fff;
+}
+
+.advantages {
+    margin-top: 150px;
+}
+
+.advantages > h2 {
+    color: #fff;
+    font-size: 90px;
+    margin-left: 50px;
+    width: 1040px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+.advantages__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left__side > img {
+    width: 609px;
+}
+
+.right__side > p {
+    width: 387px;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+.reseive {
+    width: 470px;
+    height: 58px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    background: #728BAD;
+    transition: 0.3s linear;
+}
+
+.reseve {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reseive:active {
+    color: #728BAD;
+    background: #fff;
+}
+
+.aboutUs {
+    position: relative;
+    left: -100px;
+    height: 775px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 70px 70px 0;
+    background: #1E0C06;
+    box-shadow: rgba(255, 255, 255, 0.688) 0px 5px 15px;
+    margin-top: 150px;
+    width: 1325px;
+    margin-bottom: 150px;
+}
+
+.aboutUs__left {
+    width: 510px;
+}
+
+.aboutUs__left > h2 {
+    font-size: 90px;
+    text-transform: uppercase;
+}
+
+.aboutUs__left > p {
+    margin-top: 60px;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+
+p > span {
+    font-weight: bold;
+}
+
+.aboutUs__right > img {
+    display: block;
+    justify-content: end;
+    align-items: center;
+}
+
+.aboutUs__right > img:nth-child(1) {
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+
+.second__img {
+    position: relative;
+    border: 20px solid #1E0C06;
+    border-radius: 50px;
+    width: 337px;
+    left: -200px;
+}
+
+.questions > h2 {
+    text-align: right;
+    letter-spacing: 5px;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.questions__form {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+form > input {
+    color: #fff;
+    display: block;
+    width: 598px;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 50px;
+    border: 4px solid #728BAD;
+    font-family: "Montserrat", sans-serif;
+    background: transparent;
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+form > input:active {
+    border: 4px solid #728BAD;
+}
+
+textarea {
+    color: #fff;
+    resize: none;
+    width: 598px;
+    height: 255px;
+    border-radius: 50px;
+    border: 4px solid #728BAD;
+    font-family: "Montserrat", sans-serif;
+    background: transparent;
+    padding-left: 30px;
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+form > button {
+    margin-top: 20px;
+    width: 200px;
+    height: 58px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    background: #728BAD;
+    transition: 0.3s linear;
+}
+
+form > button:active {
+    color: #728BAD;
+    background: #fff;
+}
+
+
+.whatCanIWrite > p {
+    width: 546px;
+    font-size: 30px;
+    color: #fff;
+    text-align: end;
+}
+
+.whatCanIWrite > img {
+    position: relative;
+    top: 130px;
+    width: 477px;
+}
+
+.footer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.688) 0px -5px 15px;
+    width: 100%;
+    height: 300px;
+    background: #222021;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+li {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li>a {
+    font-size: 20px;
+}
+li>img {
+    width: 37px;
+}
+
+.privacy {
+    margin-top: 50px;
+}
+
+.privacy > a {
+    font-size: 20px;
+}
