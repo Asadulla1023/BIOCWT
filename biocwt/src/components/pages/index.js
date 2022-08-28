@@ -1,3 +1,3 @@
 export * from "./home"
-export * from "./aboutUs"
+export * from "./about"
 export * from "./gallary"
