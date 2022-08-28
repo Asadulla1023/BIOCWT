@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Gallary = () => {
+const Gallary = () => {
   return (
     <div>Gallary</div>
   )
 }
+
+export default Gallary
