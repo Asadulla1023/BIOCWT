@@ -7,10 +7,11 @@ import header__img3 from "./images/header__img3.png"
 
 
 import { AboutWood } from "../aboutWood";
-import { OurWork } from "../ourWork"
+import { DemoCarousel } from "../ourWork"
 import { Advantages } from "../advantages"
 import { About } from "../aboutUs"
-
+import { Questions } from "../questions"
+import { Footer } from "../footer"
 
 
 
@@ -74,11 +75,13 @@ export const Header = () => {
             </div>
           </div>
           <AboutWood />
-          <OurWork/>
           <Advantages/>
+          <DemoCarousel/>
           <About/>
+          <Questions/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
