@@ -1,24 +1,36 @@
 import "./Header.css"
 
-import { AboutWood } from "../aboutWood/AboutWood";
-import {  } from "./images/logo.png";
+import logo from "./images/logo.png"
+import header__img from "./images/header__img.png"
+import header__img2 from "./images/header__img2.png"
+import header__img3 from "./images/header__img3.png"
+
+
+import { AboutWood } from "../aboutWood";
+import { DemoCarousel } from "../ourWork"
+import { Advantages } from "../advantages"
+import { About } from "../aboutUs"
+import { Questions } from "../questions"
+import { Footer } from "../footer"
+
+
 
 export const Header = () => {
   return (
-    <div class="head">
-      <div class="home">
-        <div class="container">
-          <div class="header">
-            <div class="navigation">
-              <div class="logo">
-                <a href="./index.html">
-                  <img src="" alt="efwfwef" />
+    <div className="head">
+      <div className="home">
+        <div className="container">
+          <div className="header">
+            <div className="navigation">
+              <div className="logo">
+                <a href="#e">
+                  <img src={logo} alt="logo" />
                 </a>
               </div>
-              <div class="navigate">
+              <div className="navigate">
                 <ul>
                   <li>
-                    <a href="/pages/Gallery.html">Gallery</a>
+                    <a href="/pages/Gallery">Gallery</a>
                   </li>
                   <li>
                     <a href="/pages/Prices.html">Prices for services</a>
@@ -32,39 +44,44 @@ export const Header = () => {
                 </ul>
               </div>
             </div>
-            <div class="header__main">
-              <div class="cont">
-                <div class="main__left">
+            <div className="header__main">
+              <div className="cont">
+                <div className="main__left">
                   <h2>Solid wood products</h2>
                   <p>
                     Oak, beech, ash from <span>1700 CZK</span> per m3
                   </p>
                   <button>Order</button>
                 </div>
-                <div class="main__center"></div>
-                <div class="main__right">
+                <div className="main__center"></div>
+                <div className="main__right">
                   <img
-                    class="header__img"
-                    src="/assets/images/header__img.png"
-                    alt="ws"
+                    className="header__img"
+                    src={header__img}
+                    alt="header__img"
                   />
                   <img
-                    class="header__img2"
-                    src="/assets/images/header__img2.png"
-                    alt="sw"
+                    className="header__img2"
+                    src={header__img2}
+                    alt="header__img"
                   />
                   <img
-                    class="header__img"
-                    src="/assets/images/header__img3.png"
-                    alt="sw"
+                    className="header__img"
+                    src={header__img3}
+                    alt="header__img"
                   />
                 </div>
               </div>
             </div>
           </div>
-          <AboutWood/>
+          <AboutWood />
+          <Advantages/>
+          <DemoCarousel/>
+          <About/>
+          <Questions/>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

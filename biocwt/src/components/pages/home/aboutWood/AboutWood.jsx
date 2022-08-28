@@ -2,92 +2,94 @@ import React from 'react'
 
 import "./../header/Header.css"
 
+import Ash from "./images/Ash.png"
+import Oak from "./images/Oak.png"
+import Buk from "./images/Buk.png"
+import Right from "./images/right.svg"
+import Ignore from "./images/ignore.svg"
+
 export const AboutWood = () => {
   return (
-    <div className="head">
-      <div className="container">
-      <div class="howWeDoIt">
-      <div class="howWeDoIt__title">
+      <div className="howWeDoIt">
+      <div className="howWeDoIt__title">
         <h2>THE WOOD WE WORK WITH</h2>
       </div>
-      <div class="about__section">
-        <div class="object">
+      <div className="about__section">
+        <div className="object">
           <img
-            src="/assets/images/pale-oak-wood-texture-design-background 1.png"
-            alt=""
+            src={Ash}
+            alt="ashWood"
           />
           <h3>Ash</h3>
-          <div class="about-object">
-            <div class="checking">
-              <img src="/assets/images/right.png" alt="" />
+          <div className="about-object">
+            <div className="checking">
+              <img src={Right} alt="" />
               <p>Durability</p>
             </div>
-            <div class="checking">
-              <img src="/assets/images/right.png" alt="" />
+            <div className="checking">
+              <img src={Right} alt="" />
               <p>Beautiful texture</p>
             </div>
-            <div class="checking">
-              <img src="/assets/images/right.png" alt="" />
+            <div className="checking">
+              <img src={Right} alt="" />
               <p>Water resistance</p>
             </div>
-            <div class="checking">
-              <img src="/assets/images/check.png" alt="" />
+            <div className="checking">
+              <img src={Ignore} alt="" />
               <p>Expensive</p>
             </div>
           </div>
         </div>
-        <div class="object">
+        <div className="object">
           <img
-            src="/assets/images/old-wood-grain-background 2.png"
-            alt=""
+            src={Oak}
+            alt="oakWood"
           />
           <h3>Oak</h3>
-          <div class="about-object">
-            <div class="checking">
-              <img src="/assets/images/right.png" alt="" />
+          <div className="about-object">
+            <div className="checking">
+              <img src={Right} alt="" />
               <p>Durability</p>
             </div>
-            <div class="checking">
-              <img src="/assets/images/check.png" alt="" />
+            <div className="checking">
+              <img src={Ignore} alt="" />
               <p>Hard to handle</p>
             </div>
-            <div class="checking hidden">
-              <img src="/assets/images/right.png" alt="" />
+            <div className="checking hidden">
+              <img src={Right} alt="" />
               <p>Water resistance</p>
             </div>
-            <div class="checking hidden">
-              <img src="/assets/images/right.png" alt="" />
+            <div className="checking hidden">
+              <img src={Right} alt="" />
               <p>Water resistance</p>
             </div>
           </div>
         </div>
-        <div class="object">
+        <div className="object">
           <img
-            src="/assets/images/wood-texture-design-decoration 1.png"
+            src={Buk}
             alt=""
           />
           <h3>Buk</h3>
-          <div class="about-object">
-            <div class="checking">
-              <img src="/assets/images/right.png" alt="" />
+          <div className="about-object">
+            <div className="checking">
+              <img src={Right} alt="" />
               <p>Durability</p>
             </div>
-            <div class="checking">
-              <img src="/assets/images/check.png" alt="" />
+            <div className="checking">
+              <img src={Ignore} alt="" />
               <p>Hard to handle</p>
             </div>
-            <div class="checking hidden">
+            <div className="checking hidden">
               <img src="/assets/images/right.png" alt="" />
               <p>Water resistance</p>
             </div>
-            <div class="checking hidden">
+            <div className="checking hidden">
               <img src="/assets/images/right.png" alt="" />
               <p>Water resistance</p>
             </div>
           </div>
         </div>
-      </div>
-    </div>
       </div>
     </div>
   )
