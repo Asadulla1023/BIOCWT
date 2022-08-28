@@ -15,7 +15,7 @@ import { Footer } from "../footer"
 
 
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className="head">
       <div className="home">
@@ -23,23 +23,23 @@ export const Header = () => {
           <div className="header">
             <div className="navigation">
               <div className="logo">
-                <a href="#e">
+                <a href="/">
                   <img src={logo} alt="logo" />
                 </a>
               </div>
               <div className="navigate">
                 <ul>
                   <li>
-                    <a href="/pages/Gallery">Gallery</a>
+                    <a href="/gallary">Gallery</a>
                   </li>
                   <li>
-                    <a href="/pages/Prices.html">Prices for services</a>
+                    <a href="/prices">Prices for services</a>
                   </li>
                   <li>
-                    <a href="/pages/aboutUs.html">About us</a>
+                    <a href="/aboutUs">About us</a>
                   </li>
                   <li>
-                    <a href="/pages/Contact.html">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -85,3 +85,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header
