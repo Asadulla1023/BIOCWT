@@ -1,0 +1,88 @@
+.section__map img{
+    position: absolute;
+    width: 493px;
+    height: 428px;
+    margin-top: 290px;
+    margin-left: 1100px;
+}
+
+.section__contact h1 {
+    position: absolute;
+    margin-top: 290px;
+    font-weight: 500;
+    margin-left: 320px;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+.section_icon ul {
+    margin-left: 335px;
+    position: absolute;
+    margin-top: 500px;
+   
+}
+
+
+.location{
+    position: absolute;
+    margin-top: 100px;
+}
+
+.section_icon a{
+    font-size: 30px;
+}
+
+
+.footers{
+    margin-top: 1000px;
+}
+
+
+
+
+.footers {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.688) 0px -5px 15px;
+    width: 100%;
+    height: 250px;
+    background: #222021;
+}
+
+.footer__mains {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    width: 600px;
+    justify-content: space-between;
+    display: flex;
+}
+
+li {
+    gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li>a {
+    font-size: 20px;
+}
+li>img {
+    width: 37px;
+}
+
+.privacys {
+    margin-top: 50px;
+}
+
+.privacy > a {
+    font-size: 20px;
+}
+
