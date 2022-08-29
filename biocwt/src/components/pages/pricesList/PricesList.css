@@ -1,0 +1,252 @@
+.carousel > h1 {
+  color: #fff;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+  font-size: 90px;
+  font-weight: 500;
+  padding-top: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.price {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  width: 1114px;
+}
+
+.priceListsTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.priceList1 {
+  display: flex;
+  justify-content: space-around;
+  width: 611px;
+  height: 500px;
+  background: #d9d9d9;
+  border-radius: 42px;
+}
+
+table {
+  margin-top: 20px;
+  width: 600px;
+}
+
+td {
+  width: 250px;
+  text-align: left;
+}
+
+.row1 {
+  position: relative;
+  left: 130px;
+}
+
+.row1 > td {
+  text-align: left;
+  color: #000;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.row2 > td {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+}
+
+.row2 > td:nth-child(1) {
+  font-weight: 700;
+}
+
+.row3 > td {
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.row3 > td:nth-child(2) {
+  position: relative;
+  left: -10px;
+}
+
+.row3 > td:nth-child(3) {
+  position: relative;
+  left: 25px;
+}
+
+.row3 {
+  position: relative;
+  left: 155px;
+}
+
+.priceList2 {
+  display: flex;
+  justify-content: center;
+  width: 482px;
+  height: 500px;
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 70%,
+    rgba(230, 150, 121, 1) 70%
+  );
+  border-radius: 42px;
+}
+
+.priceListsBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priceList3 {
+  width: 611px;
+  height: 322px;
+  background: #d9d9d9;
+  border-radius: 42px;
+}
+
+.priceList4 {
+  width: 482px;
+  height: 322px;
+  background: linear-gradient(
+    90deg,
+    rgba(217, 217, 217, 1) 70%,
+    rgba(230, 150, 121, 1) 70%
+  );
+  border-radius: 42px;
+}
+
+.colRow1 > td {
+  font-weight: 700;
+  font-size: 30px;
+  text-align: left;
+}
+
+.colRow1 > td:nth-child(2) {
+  position: relative;
+  left: -50px;
+}
+.colRow1 > td:nth-child(3) {
+  position: relative;
+  left: -10px;
+}
+
+.colRow1 {
+  position: relative;
+  left: 30px;
+}
+
+.colRow2 > td {
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.colRow2 {
+  position: relative;
+  left: 30px;
+}
+
+.col2 > td {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.col2 > td:nth-child(1) {
+  font-weight: 700;
+  position: relative;
+  left: 5px;
+}
+
+.col2 {
+  position: relative;
+  top: 30px;
+}
+
+.col3 > td {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+}
+
+.col3 > td:nth-child(2) {
+  position: relative;
+  left: -10px;
+}
+
+.col3 > td:nth-child(3) {
+  position: relative;
+  left: 12px;
+}
+
+.col3 {
+  position: relative;
+  left: 155px;
+  top: 100px;
+}
+
+.col4 > td {
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+}
+
+.col4 > td:nth-child(2) {
+  position: relative;
+  left: -10px;
+}
+
+.col4 > td:nth-child(3) {
+  position: relative;
+  left: 12px;
+}
+
+.col4 {
+  position: relative;
+  left: 155px;
+  top: 170px;
+}
+
+.col2 > td:nth-child(3) {
+  position: relative;
+  left: -10px;
+}
+
+.col2 > td:nth-child(4) {
+  position: relative;
+  left: 20px;
+}
+
+.colRow3 > td {
+  text-align: left;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.colRow3 {
+  position: relative;
+  left: 30px;
+}
+
+
+.colRow3:nth-child(1) {
+    position: relative;
+    top: 50px;
+}
+
+.colRow3:nth-child(2) {
+    position: relative;
+    top: 120px;
+}
+
+.colRow3:nth-child(3) {
+    position: relative;
+    top: 190px;
+}

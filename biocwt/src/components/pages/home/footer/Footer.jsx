@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="container">
         <div className="footer__main">
           <div className="logo">
-            <a href="/index.html">
+            <a href="/">
               <img src={logo} alt="" />
             </a>
           </div>
