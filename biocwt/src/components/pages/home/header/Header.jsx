@@ -15,8 +15,6 @@ import { Footer } from "../footer"
 
 
 
-
-
 const Header = () => {
   return (
     <div className="head">
