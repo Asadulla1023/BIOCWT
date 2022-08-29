@@ -16,9 +16,6 @@ function App() {
           <Route exact path="/gallary" element={<Gallary/>} component={Gallary} />
           <Route exact path="/about" element={<AboutPage/>} component={AboutPage}/>
           <Route exact path="/contact" element={<Contact/>} component={Contact}/>
-          <Route exact path="/" element={<Header />} component={Header} />
-          <Route exact path="/gallary" element={<Gallary />} component={Gallary} />
-          <Route exact path="/about" element={<AboutPage />} component={AboutPage} />
           <Route exact path="/price" element={<PriceList />} component={PriceList} />
         </Routes>
       </div>
