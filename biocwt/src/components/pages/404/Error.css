@@ -1,0 +1,9 @@
+.error > h1 {
+    font-size: 250px;
+    position: relative;
+    top: 300px;
+    text-align: center;
+    color: red;
+    margin-bottom: 382px;
+    transition: 0.2s linear;
+}
