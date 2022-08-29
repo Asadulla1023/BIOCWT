@@ -3,6 +3,7 @@ import "./components/";
 import Header from "./components/pages/home/header/Header";
 import Gallary from "./components/pages/gallary/Gallary";
 import AboutPage from "./components/pages/about/AboutPage";
+import Contact from "./components/pages/Contact/Contact"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <Route exact path="/" element={<Header/>} component={Header} />
           <Route exact path="/gallary" element={<Gallary/>} component={Gallary} />
           <Route exact path="/about" element={<AboutPage/>} component={AboutPage}/>
+          <Route exact path="/contact" element={<Contact/>} component={Contact}/>
         </Routes>
       </div>
     </BrowserRouter>
