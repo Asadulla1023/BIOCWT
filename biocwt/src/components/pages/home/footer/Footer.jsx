@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="container">
         <div className="footer__main">
           <div className="logo">
-            <a href="/index.html"><img src={logo} alt=""/></a>
+            <a href="/"><img src={logo} alt=""/></a>
           </div>
           <ul>
             <li><img src={tel} alt="callIcon"/><a href="tel:+998991234567">+998991234567</a></li>

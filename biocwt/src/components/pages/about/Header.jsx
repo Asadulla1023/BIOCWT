@@ -18,7 +18,7 @@ export const Header = () => {
                             <a href="/gallary">Gallery</a>
                         </li>
                         <li>
-                            <a href="/prices">Prices for services</a>
+                            <a href="/price">Prices for services</a>
                         </li>
                         <li>
                             <a href="/about">About us</a>
