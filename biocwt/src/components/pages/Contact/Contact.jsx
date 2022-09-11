@@ -3,10 +3,11 @@ import "./index.css";
 import React from "react";
 import { Header } from "../about/Header";
 
+
 const Contact = () => {
   return (
     <>
-      <Header />
+      <Header/>
 
       <section className="section">
         <div className="section__map">
