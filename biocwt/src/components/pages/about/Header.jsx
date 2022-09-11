@@ -2,29 +2,30 @@ import React from 'react'
 
 import logo from "./../home/header/images/logo.png"
 
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
     return (
         <div className="header">
             <div className="navigation">
                 <div className="logo">
-                    <a href="/">
+                    <Link to="/">
                         <img src={logo} alt="logo" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="navigate">
                     <ul>
                         <li>
-                            <a href="/gallary">Gallery</a>
+                            <Link to="/gallary">Gallery</Link>
                         </li>
                         <li>
-                            <a href="/price">Prices for services</a>
+                            <Link to="/price">Prices for services</Link>
                         </li>
                         <li>
-                            <a href="/about">About us</a>
+                            <Link to="/about">About us</Link>
                         </li>
                         <li>
-                            <a href="/contact">Contact</a>
+                            <Link to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

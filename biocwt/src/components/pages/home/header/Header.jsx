@@ -1,5 +1,7 @@
 import "./Header.css"
 
+import { Link } from "react-router-dom"
+
 import logo from "./images/logo.png"
 import header__img from "./images/header__img.png"
 import header__img2 from "./images/header__img2.png"
@@ -24,23 +26,23 @@ const Header = () => {
           <div className="header">
             <div className="navigation">
               <div className="logo">
-                <a href="/">
+                <Link to="/">
                   <img src={logo} alt="logo" />
-                </a>
+                </Link>
               </div>
               <div className="navigate">
                 <ul>
                   <li>
-                    <a href="/gallary">Gallery</a>
+                    <Link to="/gallary">Gallery</Link>
                   </li>
                   <li>
-                    <a href="/price">Prices for services</a>
+                    <Link to="/price">Prices for services</Link>
                   </li>
                   <li>
-                    <a href="/about">About us</a>
+                    <Link to="/about">About us</Link>
                   </li>
                   <li>
-                    <a href="/contact">Contact</a>
+                    <Link to="/contact">Contact</Link>
                   </li>
                 </ul>
               </div>
